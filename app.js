@@ -32,7 +32,7 @@ log4js.configure(
 );
 
 const logger = log4js.getLogger('APP');
-logger.level = 'trace';
+logger.level =  'trace';
 
 app.get('/', (req,res)=>{
 res.redirect('/index.html');
